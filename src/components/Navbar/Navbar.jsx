@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const items = ["home", "contact", "work", "skills", "contact"];
+  const items = ["home", "contact", "work", "skills"];
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
