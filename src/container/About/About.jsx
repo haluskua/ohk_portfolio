@@ -30,9 +30,9 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Dev</span>
+        Mastering <span>one Skill</span>
         <br />
-        means <span>Good Business</span>
+        at <span> a time</span>
       </h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (
