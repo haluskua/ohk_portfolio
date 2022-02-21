@@ -21,7 +21,7 @@ const About = () => {
       <h2 className="head-text">
         Mastering <span>one Skill</span>
         <br />
-        at <span> a time</span>
+        At <span> a Time</span>
       </h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (

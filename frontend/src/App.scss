@@ -56,10 +56,11 @@
     font-weight: 800;
     text-align: center;
     color: var(--black-color);
-    text-transform: capitalize;
+    text-transform: normal;
 
     span {
         color: var(--secondary-color);
+
     }
 
     @media screen and (min-width: 2000px) {
