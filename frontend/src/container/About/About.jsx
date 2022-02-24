@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./About.scss";
 import { motion } from "framer-motion";
-import { AppWrap } from "../../wrapper";
 
-// import { images } from "../../constants";
-
+import { AppWrap, MotionWrap } from "../../wrapper";
+import "./About.scss";
 import { urlFor, client } from "../../client";
 
 const About = () => {
@@ -21,10 +19,10 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Mastering <span>one Skill</span>
-        <br />
-        At <span> a Time</span>
+        I Know that <span>Good Design</span> <br />
+        means <span>Good Business</span>
       </h2>
+
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
@@ -48,4 +46,8 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, "about");
+export default AppWrap(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);
