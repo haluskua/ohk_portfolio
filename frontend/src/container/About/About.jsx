@@ -19,8 +19,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        What <span> I</span> <br />
-        can <span>do</span>
+        Confidence <span>in my </span> <br />
+        many skill <span>& talent</span>
       </h2>
 
       <div className="app__profiles">

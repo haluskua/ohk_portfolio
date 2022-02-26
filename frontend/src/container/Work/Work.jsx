@@ -22,7 +22,7 @@ const Work = () => {
   }, []);
 
   const handleWorkFilter = (item) => {
-    setActiveFilter(item);
+    setActiveFilter({ item });
     setAnimateCard([{ y: 100, opacity: 0 }]);
 
     setTimeout(() => {
@@ -43,7 +43,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["UI/UX", "Web App", "Mobile App", "React JS", "All"].map(
+        {["OLD", "RECENT", "UX/UI", "CMS", "React JS", "All"].map(
           (item, index) => (
             <div
               key={index}
