@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "ohk_portfolio"
+    "name": "portfolio"
   },
   "api": {
-    "projectId": "x4vi5mp3",
+    "projectId": "toz4otgu",
     "dataset": "production"
   },
   "plugins": [
