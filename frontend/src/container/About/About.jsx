@@ -19,8 +19,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Good Design- <span>Coats </span> <br />
-        Modern Code- <span> Frame</span>
+        Good Design <span> With </span> <br />
+        Modern <span> Code</span>
       </h2>
 
       <div className="app__profiles">
