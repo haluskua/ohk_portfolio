@@ -62,7 +62,7 @@
 
     .tag-cmp {
         padding: 1rem 2rem;
-        background: #e6a28140;
+        color: var(--gray-color);
         border-radius: 15px;
         flex-direction: row;
         width: auto;
@@ -178,6 +178,12 @@
         width: 100%;
         object-fit: contain;
         z-index: 1;
+
+        @media screen and (min-width: 1200px) {
+            object-fit: cover;
+
+
+        }
     }
 
     .overlay_circle {
@@ -192,5 +198,18 @@
 
     @media screen and (max-width: 1200px) {
         margin: 2rem 0;
+    }
+}
+
+.pro_img {
+
+    @media screen and (max-width: 900px) {
+        background-color: orange;
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-color: rgba(177, 127, 211, 0.137);
+        height: 100%;
+        border-radius: 50%;
     }
 }
