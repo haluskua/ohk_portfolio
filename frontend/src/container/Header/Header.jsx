@@ -20,7 +20,6 @@ const scaleVariants = {
 
 const Header = () => (
   <div className="app__header app__flex">
-    {" "}
     <motion.div
       whileInView={{
         x: [-100, 0],
@@ -31,29 +30,24 @@ const Header = () => (
       }}
       className="app__header-info"
     >
-      {" "}
       <div className="app__header-badge">
-        {" "}
         <div className="badge-cmp app__flex">
-          {" "}
-          <span>👋</span>{" "}
+          <span>👋</span>
           <div
             style={{
               marginLeft: 20,
             }}
           >
-            {" "}
-            <p className="p-text">Hello, I am</p>{" "}
-            <h1 className="head-text">OMPA</h1>{" "}
-          </div>{" "}
-        </div>{" "}
+            <p className="p-text">Hello, I am</p>
+            <h1 className="head-text ompa">OMPA</h1>
+          </div>
+        </div>
         <div className="tag-cmp app__flex">
-          {" "}
-          <p className="p-text">Web Developer</p>{" "}
-          <p className="p-text">Freelancer</p>{" "}
-        </div>{" "}
-      </div>{" "}
-    </motion.div>{" "}
+          <p className="p-text">Web Developer</p>
+          <p className="p-text">& Designer</p>
+        </div>
+      </div>
+    </motion.div>
     <motion.div
       whileInView={{
         opacity: [0, 1],
@@ -64,8 +58,7 @@ const Header = () => (
       }}
       className="app__header-img"
     >
-      {" "}
-      <img src={images.profile2} className="pro_img" alt="profile_bg" />{" "}
+      <img src={images.logo} className="pro_img" alt="profile_bg" />
       <motion.img
         whileInView={{
           scale: [0, 1],
@@ -77,28 +70,19 @@ const Header = () => (
         src={images.circle}
         alt="profile_circle"
         className="overlay_circle"
-      />{" "}
-    </motion.div>{" "}
+      />
+    </motion.div>
     <motion.div
       variants={scaleVariants}
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {" "}
       {[images.redux, images.react, images.sass].map((circle, index) => (
-        <div
-          className="circle-cmp app__flex"
-          key={`circle-$ {
-            index
-          }
-
-          `}
-        >
-          {" "}
-          <img src={circle} alt="profile_bg" />{" "}
+        <div className="circle-cmp app__flex" key={`circle-${index}`}>
+          <img src={circle} alt="profile_bg" />
         </div>
       ))}
-    </motion.div>{" "}
+    </motion.div>
   </div>
 );
 

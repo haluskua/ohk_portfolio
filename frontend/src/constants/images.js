@@ -29,6 +29,10 @@ import profile3 from "../assets/profile3.gif";
 import circle from "../assets/circle.svg";
 import hero from "../assets/hero.jpg";
 import logo from "../assets/logo.png";
+import haus from "../assets/haus.jpg";
+import mermaid from "../assets/mermaid.jpg";
+import crest from "../assets/crest.png";
+import poly from "../assets/poly.jpg";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -43,7 +47,11 @@ export default {
   mobile,
   api,
   cpp,
+  poly,
   css,
+  haus,
+  mermaid,
+  crest,
   figma,
   flutter,
   git,

@@ -22,6 +22,11 @@
     flex-direction: row;
 
     padding: 6rem 2rem 0rem;
+    background-image: url("../../assets/haus.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 4px;
 
     @media screen and (min-width: 2000px) {
         padding-top: 8rem;
@@ -66,8 +71,9 @@
         border-radius: 15px;
         flex-direction: row;
         width: auto;
+        background-color: #17110a;
 
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.51);
     }
 
     .tag-cmp {
@@ -121,19 +127,19 @@
     // circles with different height & width
 
     div:nth-child(1) {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
     }
 
     div:nth-child(2) {
-        margin: 1.75rem;
-        width: 150px;
-        height: 150px;
+        margin: .75rem;
+        width: 120px;
+        height: 120px;
     }
 
     div:nth-child(3) {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 
     @media screen and (min-width: 2000px) {
@@ -148,8 +154,8 @@
         }
 
         div:nth-child(1) {
-            width: 200px;
-            height: 200px;
+            width: 110px;
+            height: 110px;
         }
     }
 
@@ -163,6 +169,10 @@
             margin: 1rem;
         }
     }
+}
+
+.ompa {
+    color: #f8e9d7 !important;
 }
 
 .app__header-img {
@@ -193,7 +203,7 @@
         bottom: 0;
         z-index: 0;
         width: 100%;
-        height: 90%;
+        height: auto;
     }
 
     @media screen and (max-width: 1200px) {
@@ -202,13 +212,16 @@
 }
 
 .pro_img {
+    // background-image: url("../../assets/x.png");
+    // background-size: cover;
+    // background-position: top;
+    // background-repeat: no-repeat;
+    border-radius: 4px;
 
-    @media screen and (max-width: 900px) {
-        background-color: orange;
-    }
+    @media screen and (max-width: 900px) {}
 
     @media screen and (min-width: 1200px) {
-        background-color: rgba(177, 127, 211, 0.137);
+        background: none;
         height: 100%;
         border-radius: 50%;
     }

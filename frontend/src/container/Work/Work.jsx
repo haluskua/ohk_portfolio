@@ -39,7 +39,7 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My Projects <span>History</span> Section
+        Older <span>and </span> Recent<span> Projects </span>
       </h2>
 
       <div className="app__work-filter">
