@@ -22,9 +22,9 @@
     flex-direction: row;
 
     padding: 6rem 2rem 0rem;
-    background-image: url("../../assets/haus.jpg");
+    background-image: url("../../assets/mermaid.jpg");
     background-size: cover;
-    background-position: right;
+    background-position: bottom;
     background-repeat: no-repeat;
     border-radius: 4px;
 
@@ -68,12 +68,12 @@
     .tag-cmp {
         padding: 1rem 2rem;
         color: var(--gray-color);
-        border-radius: 15px;
+        border-radius: 7px;
         flex-direction: row;
         width: auto;
         background-color: #17110a;
 
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.51);
+        box-shadow: 0px 0px 20px #6c9bb0;
     }
 
     .tag-cmp {
