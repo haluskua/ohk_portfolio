@@ -33,6 +33,8 @@ import haus from "../assets/haus.jpg";
 import mermaid from "../assets/mermaid.jpg";
 import crest from "../assets/crest.png";
 import poly from "../assets/poly.jpg";
+import bcg1 from "../assets/bcg1.png";
+import bcg2 from "../assets/bcg2.png";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -48,6 +50,8 @@ export default {
   api,
   cpp,
   poly,
+  bcg1,
+  bcg2,
   css,
   haus,
   mermaid,

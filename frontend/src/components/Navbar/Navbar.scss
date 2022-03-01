@@ -5,7 +5,7 @@
     align-items: center;
 
     padding: 1rem 2rem;
-    background: #ccd9e95c;
+    background: #845fb573;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 
@@ -57,7 +57,7 @@
         }
 
         a {
-            color: var(--brown-color);
+            color: var(--black-color);
             text-decoration: none;
             flex-direction: column;
 
@@ -94,7 +94,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--brown-color);
+    background: var(--color-bg);
 
 
     svg {
@@ -120,8 +120,10 @@
         align-items: flex-end;
         flex-direction: column;
 
-        background: url('../../assets//bgWhite.png');
-        background-color: var(--white-color);
+        background-color: #1f1f38fa;
+        background-image: url('../../assets/bcg2.png');
+        background-position: center;
+
         background-size: cover;
         background-repeat: repeat;
 

@@ -39,7 +39,7 @@ const Header = () => (
             }}
           >
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text ompa">OMPA</h1>
+            <h1 className="head-text ompa">OMPHALUS</h1>
           </div>
         </div>
         <div className="tag-cmp app__flex">
@@ -58,7 +58,7 @@ const Header = () => (
       }}
       className="app__header-img"
     >
-      <img src={images.logo} className="pro_img" alt="profile_bg" />
+      <img src={images.profile2} className="pro_img" alt="profile_bg" />
       <motion.img
         whileInView={{
           scale: [0, 1],
