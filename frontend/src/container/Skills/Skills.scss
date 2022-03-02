@@ -27,6 +27,11 @@
     align-items: center;
     flex-wrap: wrap;
 
+    @media screen and (min-width: 360px) {
+        margin-left: 0;
+
+    }
+
 
     @media screen and (max-width: 900px) {
         justify-content: center;
@@ -132,6 +137,8 @@
 }
 
 .app__skills-exp-year {
+    display: flex;
+    justify-content: center;
     width: 40%;
 
     p {
