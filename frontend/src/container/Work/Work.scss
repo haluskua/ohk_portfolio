@@ -7,11 +7,13 @@
 .app__work-filter {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    background: #3a4049b5;
+    padding: 0.81rem;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
-    margin: 4rem 0 2rem;
+    margin: 2rem 0;
 
     .app__work-filter-item {
         padding: 0.5rem 1rem;
@@ -25,7 +27,7 @@
         margin: 0.5rem;
 
         &:hover {
-            background-color: var(--secondary-color);
+            background-color: var(--black-color);
             color: #fff;
         }
 
@@ -36,7 +38,7 @@
     }
 
     .item-active {
-        background-color: var(--secondary-color);
+        background-color: var(--black-color);
         color: #fff;
     }
 }

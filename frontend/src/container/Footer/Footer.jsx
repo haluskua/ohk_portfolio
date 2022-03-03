@@ -4,6 +4,7 @@ import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
 import "./Footer.scss";
+import resume from "../../../src/assets/resume.pdf";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -43,6 +44,17 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">I am looking for work</h2>
+      <a
+        className="linkButton"
+        href={resume}
+        rel="noreferrer noopener"
+        download="My CV"
+        target="_blank"
+      >
+        <button className="buttonDownload">
+          <span className="buttonText">Download my CV</span>
+        </button>
+      </a>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
