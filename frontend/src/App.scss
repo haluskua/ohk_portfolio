@@ -65,9 +65,7 @@
     font-weight: 800;
     text-align: center;
     color: var(--black-color);
-
-
-    text-transform: normal;
+    text-transform: uppercase;
 
     span {
         color: var(--secondary-color);
@@ -109,10 +107,13 @@
 
 
 .bold-text {
-    font-size: 1rem;
-    font-weight: 800;
-    color: #8eb94f;
+    font-size: 1.5rem !important;
+    line-height: 1.64rem !important;
+    font-weight: bold;
+    color: #161439;
+    width: 100%;
     text-align: left;
+    padding: 1.35rem 0 0 0;
 
     @media screen and (min-width: 2000px) {
         font-size: 2rem;

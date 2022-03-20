@@ -1,0 +1,45 @@
+/* -----------         IMAGE GALLERY STYLING */
+/* image grid styles */
+.img-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 1.5rem;
+  background: #090f1a59;
+
+  @media screen and (max-width: 450px) {
+    grid-gap: 15px;
+    margin: 9px auto;
+  }
+}
+
+.img-wrap {
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  opacity: 0.64;
+
+  @media screen and (max-width: 450px) {
+    padding: 23% 0;
+  }
+}
+
+
+.img-wrap img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  @media screen and (max-width: 450px) {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+  }
+}

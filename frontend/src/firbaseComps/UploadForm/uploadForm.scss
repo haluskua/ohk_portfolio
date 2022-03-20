@@ -1,0 +1,16 @@
+form {
+    display: none;
+
+    span {
+        color: var(--color-blue);
+    }
+
+    .error {
+        color: rgb(241, 103, 103);
+    }
+
+    .file {
+        color: var(--color-blue);
+        font-style: italic;
+    }
+}
