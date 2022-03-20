@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb8b0dc0.css",
-    "main.js": "/static/js/main.24bc82ba.js",
+    "main.css": "/static/css/main.f68206ac.css",
+    "main.js": "/static/js/main.8a4ba34c.js",
     "static/media/profile3.gif": "/static/media/profile3.c4a1fd8e10a89aaea379.gif",
     "static/media/profile2.png": "/static/media/profile2.07933435489e88bf2804.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -12,6 +12,7 @@
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/haus.jpg": "/static/media/haus.1e731f7970005c67cd3f.jpg",
     "static/media/hero.jpg": "/static/media/hero.97b652813e3bbc128bce.jpg",
+    "static/media/leaf.png": "/static/media/leaf.b5bbba2412f2a719253f.png",
     "static/media/resume.pdf": "/static/media/resume.0fedad326f2565f12d8a.pdf",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
     "static/media/crest.png": "/static/media/crest.36120bedb156db02bbca.png",
@@ -35,11 +36,11 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.a980d446c0fd04ae94025f1e760f6ce2.svg",
-    "main.fb8b0dc0.css.map": "/static/css/main.fb8b0dc0.css.map",
-    "main.24bc82ba.js.map": "/static/js/main.24bc82ba.js.map"
+    "main.f68206ac.css.map": "/static/css/main.f68206ac.css.map",
+    "main.8a4ba34c.js.map": "/static/js/main.8a4ba34c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb8b0dc0.css",
-    "static/js/main.24bc82ba.js"
+    "static/css/main.f68206ac.css",
+    "static/js/main.8a4ba34c.js"
   ]
 }

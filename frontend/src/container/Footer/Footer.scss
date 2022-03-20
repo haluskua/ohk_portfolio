@@ -1,3 +1,16 @@
+.backgroundBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  background-image: url(../../assets/leaf.png);
+  background-size: cover;
+  background-position: right;
+
+}
+
 .app__footer {
   flex: 1;
   width: 100%;
@@ -94,7 +107,7 @@
       background-color: var(--box-bg-color);
 
       font-family: var(--font-base);
-      color: var(--secondary-color);
+      color: var(--color-bg);
       outline: none;
     }
 

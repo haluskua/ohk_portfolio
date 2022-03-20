@@ -43,73 +43,75 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">I am looking for work</h2>
-      <a
-        className="linkButton"
-        href={resume}
-        rel="noreferrer noopener"
-        download="My CV"
-        target="_blank"
-      >
-        <button className="buttonDownload">
-          <span className="buttonText">Download my CV</span>
-        </button>
-      </a>
-
-      <div className="app__footer-cards">
-        <div className="app__footer-card ">
-          <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">
-            haluskua.one@gmail.com
-          </a>
-        </div>
-        <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">
-            +64 (22) 573-2261
-          </a>
-        </div>
-      </div>
-      {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
-          <div className="app__flex">
-            <input
-              className="p-text"
-              type="text"
-              placeholder="Your Name"
-              name="username"
-              value={username}
-              onChange={handleChangeInput}
-            />
-          </div>
-          <div className="app__flex">
-            <input
-              className="p-text"
-              type="email"
-              placeholder="Your Email"
-              name="email"
-              value={email}
-              onChange={handleChangeInput}
-            />
-          </div>
-          <div>
-            <textarea
-              className="p-text"
-              placeholder="Your Message"
-              value={message}
-              name="message"
-              onChange={handleChangeInput}
-            />
-          </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>
-            {!loading ? "Send Message" : "Sending..."}
+      <div className="backgroundBox">
+        <h2 className="head-text">I am looking for work</h2>
+        <a
+          className="linkButton"
+          href={resume}
+          rel="noreferrer noopener"
+          download="My CV"
+          target="_blank"
+        >
+          <button className="buttonDownload">
+            <span className="buttonText">Download my CV</span>
           </button>
+        </a>
+
+        <div className="app__footer-cards">
+          <div className="app__footer-card ">
+            <img src={images.email} alt="email" />
+            <a href="mailto:haluskua.one@gmail.com" className="p-text">
+              haluskua.one@gmail.com
+            </a>
+          </div>
+          <div className="app__footer-card">
+            <img src={images.mobile} alt="phone" />
+            <a href="tel:+64225732261" className="p-text">
+              +64 (22) 573-2261
+            </a>
+          </div>
         </div>
-      ) : (
-        <div>
-          <h3 className="head-text">Thank you for getting in touch!</h3>
-        </div>
-      )}
+        {!isFormSubmitted ? (
+          <div className="app__footer-form app__flex">
+            <div className="app__flex">
+              <input
+                className="p-text"
+                type="text"
+                placeholder="Your Name"
+                name="username"
+                value={username}
+                onChange={handleChangeInput}
+              />
+            </div>
+            <div className="app__flex">
+              <input
+                className="p-text"
+                type="email"
+                placeholder="Your Email"
+                name="email"
+                value={email}
+                onChange={handleChangeInput}
+              />
+            </div>
+            <div>
+              <textarea
+                className="p-text"
+                placeholder="Your Message"
+                value={message}
+                name="message"
+                onChange={handleChangeInput}
+              />
+            </div>
+            <button type="button" className="p-text" onClick={handleSubmit}>
+              {!loading ? "Send Message" : "Sending..."}
+            </button>
+          </div>
+        ) : (
+          <div>
+            <h3 className="head-text">Thank you for getting in touch!</h3>
+          </div>
+        )}
+      </div>
     </>
   );
 };
